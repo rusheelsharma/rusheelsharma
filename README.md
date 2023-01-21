@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @rusheelsharma
-- 👀 I’m interested in Game Design and Web Development
-- 🌱 I’m currently learning C++
+- Hi, I’m @rusheelsharma
+-  I’m interested in Game Design and Web Development
+-  I’m currently learning Javascript
 
 
 
