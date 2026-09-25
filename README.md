@@ -18,9 +18,3 @@ Computer Science student at Northeastern University, graduating May 2027. I buil
 | [Liaizon](https://rusheelsharma.com) | A co-founder matching platform I built from zero to App Store launch. | React Native, FastAPI, PostgreSQL, WebSockets, AWS |
 | [Unix Shell](https://github.com/rusheelsharma/Shell) | A shell with process management, pipelines, I/O redirection, and built-in commands. | C, Unix, Valgrind |
 | [FUSE File System](https://github.com/rusheelsharma/File-System) | A mountable file system with block allocation, metadata management, and file operations. | C, FUSE, systems programming |
-
-## Activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=rusheelsharma&show_icons=true&hide_border=true&hide_title=true&theme=transparent" alt="Rusheel's GitHub activity" />
-</p>
