@@ -1,60 +1,26 @@
 # Rusheel Sharma
 
-Computer Science @ Northeastern University · Boston, MA
+Computer Science student at Northeastern University, graduating May 2027. I build full-stack products, backend systems, and developer tools for applied AI.
 
 [Portfolio](https://rusheelsharma.com) · [LinkedIn](https://www.linkedin.com/in/rusheelsharma/)
 
-## About
+## Stack
 
-I'm a computer science student at Northeastern concentrating in artificial intelligence. Most of my work sits at the intersection of product engineering, backend systems, and applied AI.
-
-I enjoy owning the parts of a system that have to work together: data models, APIs, authentication, real-time communication, infrastructure, and the interface people ultimately use. I'm especially interested in retrieval systems for large codebases and backend software that has to remain understandable as the product around it grows.
-
-## Experience highlights
-
-### Liaizon · Founding Engineer
-
-Built a co-founder matching platform from the ground up and shipped it to the App Store. I owned the React Native application, FastAPI services, PostgreSQL data model, authentication, real-time WebSocket chat, and AWS media infrastructure.
-
-Because the product started without an existing codebase, I also helped establish the engineering workflow, reviewed code, and onboarded another developer.
-
-### Kino · Software Developer
-
-Worked within a five-person team building an iOS product in Swift and SwiftUI. I shipped production features, improved interface responsiveness, built an Express and PostgreSQL backend, and iterated on feedback from more than 20 beta users.
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,python,java,c,swift,react,fastapi,postgres,aws,docker,git" alt="TypeScript, Python, Java, C, Swift, React, FastAPI, PostgreSQL, AWS, Docker, and Git" />
+</p>
 
 ## Featured work
 
-### [Neocortex](https://github.com/rusheelsharma/neocortex)
+| Project | What it does | Focus |
+|---|---|---|
+| [Neocortex](https://github.com/rusheelsharma/neocortex) | Retrieves and compresses relevant code context for LLMs using ASTs and dependency relationships. Placed second at NexHacks at Carnegie Mellon. | Retrieval, ASTs, embeddings, MCP |
+| [Liaizon](https://rusheelsharma.com) | A co-founder matching platform I built from zero to App Store launch. | React Native, FastAPI, PostgreSQL, WebSockets, AWS |
+| [Unix Shell](https://github.com/rusheelsharma/Shell) | A shell with process management, pipelines, I/O redirection, and built-in commands. | C, Unix, Valgrind |
+| [FUSE File System](https://github.com/rusheelsharma/File-System) | A mountable file system with block allocation, metadata management, and file operations. | C, FUSE, systems programming |
 
-A code-retrieval system that turns a GitHub repository into a knowledge base an LLM can query in natural language.
+## Activity
 
-Neocortex parses real code structure using abstract syntax trees, retrieves relevant functions and files, follows dependencies through the repository, and compresses the result into a fixed token budget. It placed second in the LeanMCP track at NexHacks at Carnegie Mellon.
-
-[GitHub](https://github.com/rusheelsharma/neocortex) · [Devpost](https://devpost.com/software/neocortex)
-
-### [Custom Linux Shell](https://github.com/rusheelsharma/Shell)
-
-A shell written in C with command parsing, process management, pipelines, I/O redirection, built-in commands, and memory validation with Valgrind.
-
-### [FUSE File System](https://github.com/rusheelsharma/File-System)
-
-A mountable file system written in C with block allocation, inode-style metadata, and support for file and directory operations over a virtual disk.
-
-### [Enterprise Client Management System](https://github.com/rusheelsharma/Vipul_Management_System)
-
-A Java and SQL application for managing clients, payments, receipts, and operational reporting using an MVC architecture.
-
-## Technical focus
-
-**Languages:** TypeScript, Java, Python, Swift, C  
-**Product:** React, React Native, Next.js, SwiftUI  
-**Backend:** FastAPI, Express, REST, WebSockets, JWT, OAuth  
-**Data and infrastructure:** PostgreSQL, AWS, Docker, SQLAlchemy, Alembic  
-**Applied AI:** Embeddings, code retrieval, AST analysis, MCP
-
-## Currently interested in
-
-- Retrieval systems that give LLMs better code context
-- Reliable real-time communication across mobile and backend systems
-- API and database design for products that evolve quickly
-- Developer tools that reduce the distance between understanding a codebase and changing it
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=rusheelsharma&show_icons=true&hide_border=true&hide_title=true&theme=transparent" alt="Rusheel's GitHub activity" />
+</p>
