@@ -1,44 +1,60 @@
-# Hey, I'm Rusheel.
+# Rusheel Sharma
 
-I like hard software engineering problems, building useful products end to end, and loud guitars.
+Computer Science @ Northeastern University · Boston, MA
 
-I'm studying computer science at Northeastern, with a concentration in AI and a minor in mathematics. I enjoy working across the boundaries that usually separate a product: the interface, API, database, infrastructure, and the decisions connecting them.
+[Portfolio](https://rusheelsharma.com) · [LinkedIn](https://www.linkedin.com/in/rusheelsharma/)
 
-When I say end to end, I mean going from an unfinished idea to something another person can actually use. That has meant designing PostgreSQL schemas, building APIs and authentication systems, making real-time features reliable on bad networks, shipping mobile interfaces, and debugging everything that breaks between them.
+## About
 
-Lately, I've also been interested in a different problem: giving language models the right context instead of simply giving them more context.
+I'm a computer science student at Northeastern concentrating in artificial intelligence. Most of my work sits at the intersection of product engineering, backend systems, and applied AI.
 
-## A few things I've built
+I enjoy owning the parts of a system that have to work together: data models, APIs, authentication, real-time communication, infrastructure, and the interface people ultimately use. I'm especially interested in retrieval systems for large codebases and backend software that has to remain understandable as the product around it grows.
 
-### Liaizon
+## Experience highlights
 
-I built Liaizon from the ground up as its founding engineer. It became a mobile platform for finding co-founders, forming teams, discovering events, and communicating through real-time chat.
+### Liaizon · Founding Engineer
 
-The interesting work wasn't limited to one part of the stack. A single feature could involve a React Native interface, a FastAPI endpoint, a PostgreSQL migration, WebSocket synchronization, authentication, and AWS infrastructure. Building the whole product taught me how quickly technical decisions become product decisions once real people depend on them.
+Built a co-founder matching platform from the ground up and shipped it to the App Store. I owned the React Native application, FastAPI services, PostgreSQL data model, authentication, real-time WebSocket chat, and AWS media infrastructure.
+
+Because the product started without an existing codebase, I also helped establish the engineering workflow, reviewed code, and onboarded another developer.
+
+### Kino · Software Developer
+
+Worked within a five-person team building an iOS product in Swift and SwiftUI. I shipped production features, improved interface responsiveness, built an Express and PostgreSQL backend, and iterated on feedback from more than 20 beta users.
+
+## Featured work
 
 ### [Neocortex](https://github.com/rusheelsharma/neocortex)
 
-Neocortex turns a GitHub repository into a knowledge base that an LLM can query in natural language.
+A code-retrieval system that turns a GitHub repository into a knowledge base an LLM can query in natural language.
 
-Rather than retrieving loosely related text, it parses the code into functions, classes, imports, and dependencies. It follows relationships through the codebase, chooses the context relevant to the question, and compresses the result into a fixed token budget.
+Neocortex parses real code structure using abstract syntax trees, retrieves relevant functions and files, follows dependencies through the repository, and compresses the result into a fixed token budget. It placed second in the LeanMCP track at NexHacks at Carnegie Mellon.
 
-It placed second in the LeanMCP track at NexHacks at Carnegie Mellon.
+[GitHub](https://github.com/rusheelsharma/neocortex) · [Devpost](https://devpost.com/software/neocortex)
 
-### [Better Muscle](https://github.com/rusheelsharma/progressiveoverload)
+### [Custom Linux Shell](https://github.com/rusheelsharma/Shell)
 
-Better Muscle started because I wanted a better way to track progressive overload. It grew into a workout-tracking product with more than 300 exercises, progress analytics, and over 200 downloads.
+A shell written in C with command parsing, process management, pipelines, I/O redirection, built-in commands, and memory validation with Valgrind.
 
-Building it taught me one of my favorite lessons about software: the moment people start using something, the problems that matter become very different from the ones you imagined while building it.
+### [FUSE File System](https://github.com/rusheelsharma/File-System)
 
-## Problems I find interesting
+A mountable file system written in C with block allocation, inode-style metadata, and support for file and directory operations over a virtual disk.
 
-- Making real-time systems behave reliably on unreliable networks
-- Designing APIs and data models that remain understandable as a product grows
-- Retrieving useful context from large codebases
-- Deciding where AI improves an engineering workflow and where it gets in the way
-- Turning vague product ideas into software people can actually use
+### [Enterprise Client Management System](https://github.com/rusheelsharma/Vipul_Management_System)
 
-## Elsewhere
+A Java and SQL application for managing clients, payments, receipts, and operational reporting using an MVC architecture.
 
-[Portfolio](https://rusheelsharma.com) ·
-[LinkedIn](https://www.linkedin.com/in/rusheelsharma/)
+## Technical focus
+
+**Languages:** TypeScript, Java, Python, Swift, C  
+**Product:** React, React Native, Next.js, SwiftUI  
+**Backend:** FastAPI, Express, REST, WebSockets, JWT, OAuth  
+**Data and infrastructure:** PostgreSQL, AWS, Docker, SQLAlchemy, Alembic  
+**Applied AI:** Embeddings, code retrieval, AST analysis, MCP
+
+## Currently interested in
+
+- Retrieval systems that give LLMs better code context
+- Reliable real-time communication across mobile and backend systems
+- API and database design for products that evolve quickly
+- Developer tools that reduce the distance between understanding a codebase and changing it
